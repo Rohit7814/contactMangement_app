@@ -14,7 +14,7 @@ Welcome to the **Contact-Meeno** project, a Contact Management App designed to p
 
 ## Deployed Link
 
-[ContactMeeno](https://contact-meeno.vercel.app/)
+[ContactMangementApp](https://contact-meeno.vercel.app/)
 
 ## Installation
 
