@@ -20,11 +20,11 @@ Welcome to the **Contact-Meeno** project, a Contact Management App designed to p
 
 1. Clone this repository to your local machine using:
 
-`git clone https://github.com/your-username/contact-meeno.git`
+`git clone https://github.com/Rohit7814/contactMangement_app`
 
 2. Navigate to the project directory:
 
-`cd contact-meeno`
+`cd contactMangementApp`
 
 3. Install the required dependencies:
 
@@ -62,4 +62,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for choosing **Contact-Meeno** for your contact management needs. If you have any questions or need further assistance, please don't hesitate to contact us at tusharaggarwal274@gmail.com. We hope you find our application both helpful and user-friendly!
+Thank you for choosing **ContactManagementApp** for your contact management needs. If you have any questions or need further assistance, please don't hesitate to contact us at knandarohit@gmail.com. We hope you find our application both helpful and user-friendly!
