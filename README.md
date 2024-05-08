@@ -1,8 +1,8 @@
-# Contact-Meeno Project README
+# ContactMangementApp Project README
 
-Welcome to the **Contact-Meeno** project, a Contact Management App designed to provide an efficient and user-friendly way to manage contacts, visualize COVID-19 data, and explore charts and maps. This application is built using TypeScript, Chart.js, react-chartjs-2, Tailwind CSS, React Router, React Query, and React Leaflet.
+Welcome to the **ContactManagementApp** project, a Contact Management App designed to provide an efficient and user-friendly way to manage contacts, visualize COVID-19 data, and explore charts and maps. This application is built using TypeScript, Chart.js, react-chartjs-2, Tailwind CSS, React Router, React Query, and React Leaflet.
 
-![Screenshot_32](https://github.com/TusharTechs/ContactMeeno/assets/56952465/6a27a1bf-e9f2-483d-b388-e823316c0d5e)
+
 
 ## Features
 
