@@ -21,7 +21,7 @@ const Contacts: React.FC = () => {
 
   const fetchContacts = async () => {
     try {
-      const response = await axios.get("https://contact-meeno.onrender.com/api/contacts");
+      const response = await axios.get("https://contactmangement-server-3.onrender.com/api/contacts");
       dispatch({ type: SET_CONTACTS, payload: response.data });
     } catch (error) {
       console.error("Error fetching contacts:", error);
@@ -30,7 +30,7 @@ const Contacts: React.FC = () => {
 
   const createContact = async () => {
     try {
-      await axios.post("https://contact-meeno.onrender.com/api/contacts", {
+      await axios.post("https://contactmangement-server-3.onrender.com/api/contacts", {
         firstName,
         lastName,
         status,
@@ -54,7 +54,7 @@ const Contacts: React.FC = () => {
     if (editingContact) {
       try {
         await axios.put(
-          `https://contact-meeno.onrender.com/api/contacts/${editingContact._id}`,
+          `https://contactmangement-server-3.onrender.com/api/contacts/${editingContact._id}`,
           {
             firstName,
             lastName,
@@ -76,7 +76,7 @@ const Contacts: React.FC = () => {
   const deleteContact = async (id: string) => {
     try {
       console.log("Deleting contact with ID:", id);
-      await axios.delete(`https://contact-meeno.onrender.com/api/contacts/${id}`);
+      await axios.delete(`https://contactmangement-server-3.onrender.com/api/contacts/${id}`);
       console.log("Contact deleted successfully");
       fetchContacts();
     } catch (error) {
